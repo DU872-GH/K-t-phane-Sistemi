@@ -1,0 +1,83 @@
+{
+  "kitaplar": [
+    {
+      "kitap_id": "1",
+      "kitap_ismi": "Hobbit",
+      "yazar": "J.R.R Tolkien",
+      "sayfa": 310,
+      "tur": "Fantastik",
+      "okunma_sayisi": 13,
+      "odunc_alindi": false
+    },
+    {
+      "kitap_id": "2",
+      "kitap_ismi": "Yüzüklerin Efendisi",
+      "yazar": "J.R.R. Tolkien",
+      "sayfa": 350,
+      "tur": "Fantastik",
+      "okunma_sayisi": 1,
+      "odunc_alindi": false
+    },
+    {
+      "kitap_id": "3",
+      "kitap_ismi": "A Game of Thrones",
+      "yazar": "George R. R. Martin",
+      "sayfa": 694,
+      "tur": "Fantastik",
+      "okunma_sayisi": 1,
+      "odunc_alindi": false
+    }
+  ],
+  "uyeler": [
+    {
+      "uye_id": "1",
+      "sifre": "1",
+      "isim": "Deniz",
+      "soyisim": "Ünal",
+      "telefon": "5348942034",
+      "e_posta": "denizunal872@gmail.com",
+      "toplam_gecikme": 17
+    },
+    {
+      "uye_id": "2",
+      "sifre": "17",
+      "isim": "Ayşe",
+      "soyisim": "Demir",
+      "telefon": "5337349671",
+      "e_posta": "aysedemir@gmail.com",
+      "toplam_gecikme": 65
+    },
+    {
+      "uye_id": "23",
+      "sifre": "1",
+      "isim": "Emre",
+      "soyisim": "Mutlu",
+      "telefon": "5345932904",
+      "e_posta": "emremutlu@gmail.com",
+      "toplam_gecikme": 3
+    }
+  ],
+  "odunc_almalar": [
+    {
+      "uye_id": "1",
+      "kitap_id": "1",
+      "alinan_tarih": "2026-06-05",
+      "getirme_tarihi": "2026-06-19",
+      "teslim_edildi": true
+    },
+    {
+      "uye_id": "1",
+      "kitap_id": "2",
+      "alinan_tarih": "2026-06-05",
+      "getirme_tarihi": "2026-06-19",
+      "teslim_edildi": true
+    },
+    {
+      "uye_id": "1",
+      "kitap_id": "3",
+      "alinan_tarih": "2026-06-05",
+      "getirme_tarihi": "2026-06-19",
+      "teslim_edildi": true
+    }
+  ]
+}
