@@ -1,6 +1,7 @@
 import json
 from datetime import date, timedelta
 from abc import ABC, abstractmethod
+import os
 
 class Uye(ABC):
 
@@ -111,8 +112,10 @@ class OduncAlma:
 # İlk ödev gibi olacak zannetmiştim :(
 # Ama çok şey öğrendim, sadece Pyhton değil genel olarak programcılık üzerine
 
+DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "database.json")
+
 def login():
-    with open("database.json", "r", encoding="utf-8") as f:
+    with open(DB_PATH, "r", encoding="utf-8") as f:
        veri = json.load(f)
 
     uye_bilgileri = veri["uyeler"]
